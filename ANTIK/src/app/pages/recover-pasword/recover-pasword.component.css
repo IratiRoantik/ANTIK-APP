@@ -1,0 +1,58 @@
+.login-container{
+    width: 100vw;
+    height:100vh;
+    background-color: var(--fondo);
+    overflow: hidden;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo{
+    margin-top: 12vh;
+    width: 60vw;
+    height: 59vw;
+}
+
+.input-datos{
+    color: var(--letterColor);
+    margin-top: 1vh;
+    margin-left: 4vh;
+}
+input{
+    width: 90%;
+    border-radius: 0.3vh;
+    height: 4vh;
+    margin-top: 5vh;
+}
+
+.img-montaña{
+    margin-top: -10vh;
+}
+
+.boton-acceder{
+    background-color: black;
+    width: 100%;
+    margin-top: -27vh;
+}
+.acceder{
+    background-color: var(--fondo);
+    color: white;
+    width: 70%;
+    height: 5vh;
+    margin-left: 15%;
+    margin-top: 1vh;
+    border-radius: 5vh;
+    border: none;
+}
+
+h4{
+    margin-top: 6vh;
+    text-align: center;
+}
+hr{
+    color: transparent;
+}
