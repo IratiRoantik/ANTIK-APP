@@ -1,0 +1,44 @@
+main{
+    background-color: var(--fondo);
+    color: white;
+    height: 104vh;
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid white;
+    margin: 3vh;
+    margin-left: 29%;
+}
+
+hr{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.btn-dark,.btn-block{
+    margin-left: 32%;
+    width: 36%;
+    height: 5vh;
+    margin-top: 4vh;
+    box-shadow: 4px 4px 4px 1px rgba(26, 100, 100, 0.382);
+    border: 1px solid white;
+    border-radius: 0.25rem;
+}
+
+.collapse {
+    color: black;
+}
+
+.buttonGuardar{
+    background-color: var(--fondo);
+    color: white;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.38);
+    border: 1px solid white;
+    border-radius: 0.45rem;
+    width: 59%;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 21%;
+}

@@ -1,0 +1,90 @@
+main{
+    background-color: var(--fondo);
+    height: 145vh;
+}
+h1{
+    color: white;
+   padding-top: 3vh;
+   margin-left: 1.5vh;
+}
+
+.tarjeta{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 0vw;
+  
+}
+
+hr{
+    width: 104%;
+    color: white;
+    margin-left: -2%;
+    margin-top: 0vh;
+    height: 3px;
+}
+
+img{
+    width: 104%;
+    height: 74vw;
+    margin-left: -2%;
+}
+
+
+.detalles{
+    color: white;
+}
+
+.texto{
+    margin-top: -1vh;
+    color: white;
+    background-color: var(--pulsado);
+    width: 106%;
+    margin-left: -4%;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+
+h3{
+    margin-top: 1vh;
+    text-align: right;
+    margin-right: 2vh;
+}
+
+.container{
+    margin-top: 9vh;
+}
+
+.btn-dark,.btn-block{
+    margin-left: 32%;
+    width: 36%;
+    height: 5vh;
+    margin-top: 4vh;
+    box-shadow: 4px 4px 4px 1px rgba(26, 100, 100, 0.382);
+    border: 1px solid white;
+    border-radius: 0.25rem;
+}
+
+h1{
+    color:white ;
+}
+
+.collapse, .content-text-header{
+    padding-top: 2vh;
+}
+
+#collapseExample3h3{
+    padding-top: 2vh;
+}
+
+.buttonGuardar{
+    background-color: var(--fondo);
+    color: white;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.38);
+    border: 1px solid white;
+    border-radius: 0.45rem;
+    width: 59%;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 21%;
+}

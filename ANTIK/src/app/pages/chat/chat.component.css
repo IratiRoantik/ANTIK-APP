@@ -1,0 +1,53 @@
+main{
+    background-color: var(--fondo);
+    color: white;
+    height: 89vh;
+    width: 100%;
+}
+
+h1{
+    padding-top: 4vh;
+    padding-left: 2vh;
+}
+
+.hr1{
+    height: 1vh;
+    color: rgb(255, 255, 255);;
+}
+
+.chat1{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--pulsado);
+    height: 10vh;
+    padding-top: 3vh;
+    margin-top: -2.1vh;
+    width: 100%;
+}
+.chat2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 50, 50);
+    height: 10vh;
+    padding-top: 3vh;
+    margin-top: -2.1vh;
+    width: 100%;
+}
+
+img{
+    width: 5vh;
+    height: 5vh;
+    border: white;
+    border-radius: 50%;
+    margin-left: 2vh;
+}
+
+h4{
+    width: 50%;
+    margin-left: 2vh;
+}
+
+.hrChat{
+    height: 2px;
+    margin-top: 0vh;
+}

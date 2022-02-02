@@ -1,0 +1,51 @@
+main{
+    background-color: var(--fondo);
+    padding:auto ;
+    height: 100% ;
+    color: white;
+    padding-bottom: 25vh;
+}
+
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+.container{
+    background-color: var(--fondo);
+    padding-bottom: 15%;
+}
+
+h2{
+    margin-top: 10vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+ 
+.content{
+    margin-left: 3vh;
+    margin-top: 3vh;
+    border: white;
+    padding: auto;
+}
+
+.titulo{
+    padding-top: 3vh;
+}
+.Title{
+    text-align: center;
+}
+.hr{
+    height: 1vh;
+}
+
+
+.card-body{
+    width: 95%;
+}
+
+p{
+    color: black;
+}
+
+
+

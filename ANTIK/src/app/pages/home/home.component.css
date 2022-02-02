@@ -1,0 +1,105 @@
+*{
+    position: relative;
+}
+body{
+   background-color: var(--fondo);
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.buscarPorInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+button{
+    width: 13vh;
+    height: 4vh;
+    border: none;
+}
+
+input{
+    text-align: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 4%;
+    width: 80%;
+    height: 4vh;
+}
+.lupa{
+    height: 3.87vh;
+    margin-top: 3.09vh;
+    width: 3.8vh;
+    margin-left: 1vh;
+    border-radius: 0.1rem;
+}
+
+.texto{
+    margin-left: 2vh;
+}
+
+.boton1{
+    border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+    margin-left: -1%;
+}
+
+.boton2{
+    margin-left: 1%;
+    border-top-right-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
+}
+
+hr{
+    margin-top: 3vh;
+}
+
+.fondoCards{
+    background-color: rgb(34, 50, 50);
+    margin-top: -1vh;
+    padding-bottom: 29vh;
+}
+
+.card{
+    background-color: aliceblue;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    width: 90%;
+    height: 37vh;
+    margin-left: 5%;
+}
+
+.card-img-top{
+    height: 74%;
+    width: 92%;
+    margin-left: 2vh;
+    margin-top: 2vh; 
+}
+
+btn-primary{
+    border: 1vh;
+    background-color: black;
+}
+
+.textoYguardar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.meGusta{
+    margin-top: 6vh;
+    background-color: transparent;
+    color: red;
+    margin-right: -1vh;
+}

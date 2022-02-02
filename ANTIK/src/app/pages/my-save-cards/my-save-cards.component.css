@@ -1,0 +1,66 @@
+body{
+    background-color: var(--fondo);
+    width: 100%;
+    height: 90vh;
+}
+
+h1{
+    color: white;
+    padding-top: 2vh;
+    padding-left: 1vh;
+}
+
+hr{
+    color: white;
+    width: 100%;
+    height: 0.5vh;
+}
+
+.containerTarjetas{
+    background-color: var(--pulsado);
+    width: 100% !important;
+    height: 87vh;
+    margin-top: -2vh;
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 34vh;
+}
+
+.cards{
+    background-color: var(--pulsado);
+    width: 100% !important;
+    /* height: 57vh; */
+    margin-top: -1vh;
+    padding: 1vh;
+}
+
+.card{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 30vh;
+    margin-top: 2vh;
+}
+
+img{
+    width: 100% !important;
+    height: 19vh !important;
+}
+
+.textoYcorazon{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    margin-top: 7vh;
+    margin-right: 1vh;
+}
+
+.meGusta{
+    border: none;
+    background-color: transparent;
+    color: red;
+}

@@ -1,0 +1,46 @@
+main{
+    background-color: var(--fondo);
+    height: 91vh;
+}
+
+.retroceder{
+    background-color: var(--fondo);
+    margin-top: 5vh;
+    border: none;
+    color: white;
+    margin-left: 1vh;
+}
+
+.tarjeta{
+    border: solid 5px white;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 6vw;
+}
+
+img{
+    width: 100.1%;
+    height: 80vw;
+}
+
+.megustaYtexto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.texto{
+    color: white;
+}
+
+.meGusta{
+    background-color: transparent;
+    color: red;
+    border: none;
+    margin-left: 70%;
+    margin-top: 28%;
+    width: 8%;
+}
+h3{
+    margin-top: 0.5vh;
+}
