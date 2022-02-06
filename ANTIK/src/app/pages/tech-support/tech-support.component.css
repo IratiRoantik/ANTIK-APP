@@ -1,5 +1,61 @@
-.myForm{
-    background-color: var(--fondo);
+main{
+    background-image: url(../../../assets/img/fondoB&W.png);
+    padding-top: 9vh;
+    padding-bottom: 11vh;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.779);
+    color: white;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+}
+
+.soporte{
+    background-color: rgba(255, 255, 255, 0.444);
+    margin-top: 5vh;
+    width: 90%;
+    margin-left: 5%;
+    height: -1vh;
+    border: 8px black solid;
+    border-radius: 1.25rem;
+    height: 63vh;
+}
+
+h3{
+    margin-top: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    font-size: x-large;
+}
+
+input, textarea{
+    width: 90%;
+    margin-left: 5%;
+}
+
+label{
+    margin-left: 4vh;
+    margin-top: 1vh;
+    font-size: large;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    margin-left: 24%;
+    width: 52%;
+    height: 6vh;
+    margin-top: 4vh;
+    box-shadow: 4px 4px 4px 1px rgba(26, 100, 100, 0.382);
+    border: 6px solid white;
+    border-radius: 4.25rem;
+}
+
+/* .myForm{
+    background-image: url(../../../assets/img/fondoB&W.png);
     color: white;
     margin-bottom: -18%;
     padding: 7%;
@@ -48,4 +104,4 @@ button{
     background-color: white;
     box-shadow: none;  
     border: white;
-}
+} */

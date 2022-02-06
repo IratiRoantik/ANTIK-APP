@@ -1,37 +1,41 @@
 main{
-    background-color: var(--fondo);
+    background-image: url(../../../assets/img/fondoHome.jpg.png);
     color: white;
-    height: 89vh;
+    height:93vh;
     width: 100%;
+    margin-top: 9vh;
 }
 
 h1{
     padding-top: 4vh;
     padding-left: 2vh;
+    color: white;
 }
 
 .hr1{
-    height: 1vh;
-    color: rgb(255, 255, 255);;
+    height: 2vh;
+    color: rgba(255, 255, 255, 0);
 }
 
 .chat1{
     display: flex;
     flex-direction: row;
-    background-color: var(--pulsado);
+    background-color: rgba(35, 64, 83, 0.45);
     height: 10vh;
     padding-top: 3vh;
     margin-top: -2.1vh;
     width: 100%;
+    border: 2px black solid;
 }
 .chat2{
     display: flex;
     flex-direction: row;
-    background-color: rgb(34, 50, 50);
+    background-color: rgba(166, 200, 200, 0.55);
     height: 10vh;
     padding-top: 3vh;
     margin-top: -2.1vh;
     width: 100%;
+    border: 2px black solid;
 }
 
 img{

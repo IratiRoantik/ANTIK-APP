@@ -1,10 +1,11 @@
-.header {
+.navbar-green{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color:rgb(86, 83, 83);
+    background-color: var(--fondo);
     height: 9vh;
     width: 100%;
+   
 }
 
 .botones-header{
@@ -18,7 +19,7 @@
     width: 17vh;
     margin-left: 3vh;
     height: 17vh;
-    margin-top: -2.6vh;
+    margin-top: -3vh;
 }
 
 .navbar-toggler{
@@ -26,6 +27,7 @@
     color: white;
     border: none;
     padding-left: 21vh;
+    margin-top: -6vh;
 }
 
 .navbar-toggler:focus, .navbar-toggler:active{
@@ -34,13 +36,13 @@
 }
 
 .offcanvas-body, .offcanvas-header{
-    background-color: var(--pulsado);
+    background-color: black;
     color: white;
 }
 
 .offcanvas-body:hover{
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .btn-close{

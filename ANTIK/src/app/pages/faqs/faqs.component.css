@@ -1,9 +1,10 @@
 main{
-    background-color: var(--fondo);
+    background-image: url(../../../assets/img/fondoB&W.png);
     padding:auto ;
     height: 100% ;
     color: white;
     padding-bottom: 25vh;
+
 }
 
 body{
@@ -11,7 +12,7 @@ body{
     margin-top: 0px;
 }
 .container{
-    background-color: var(--fondo);
+    background-color: transparent;
     padding-bottom: 15%;
 }
 
@@ -29,7 +30,9 @@ h2{
 }
 
 .titulo{
-    padding-top: 3vh;
+    padding-top: 11vh;
+    background-color: #000000c9;
+    padding-bottom: 2vh;
 }
 .Title{
     text-align: center;

@@ -2,12 +2,18 @@
     position: relative;
 }
 body{
-   background-color: var(--fondo);
+   background-image: url(../../../assets/img/fondoHome.jpg.png);
+   margin-top: 9vh;
 }
 
 h2{
     color: white;
     text-align: center;
+}
+
+.buscador{
+    background-color: rgba(255, 255, 255, 0.493);
+    height: 16vh;
 }
 
 .buscarPorInput{
@@ -36,13 +42,17 @@ input{
     margin-left: 4%;
     width: 80%;
     height: 4vh;
+    border: 3px black solid;
+    border-radius: 3.5rem;
 }
 .lupa{
     height: 3.87vh;
     margin-top: 3.09vh;
     width: 3.8vh;
     margin-left: 1vh;
-    border-radius: 0.1rem;
+    border: 0.19rem black solid;
+    border-radius: 0.7rem;
+    background-color: white;
 }
 
 .texto{
@@ -50,15 +60,19 @@ input{
 }
 
 .boton1{
-    border-top-left-radius: 0.35rem;
-    border-bottom-left-radius: 0.35rem;
+    border-top-left-radius: 0.65rem;
+    border-bottom-left-radius: 0.65rem;
     margin-left: -1%;
+    background-color: white;
+    border: 3px black solid;
 }
 
 .boton2{
     margin-left: 1%;
-    border-top-right-radius: 0.35rem;
-    border-bottom-right-radius: 0.35rem;
+    border-top-right-radius: 0.65rem;
+    border-bottom-right-radius: 0.65rem;
+    background-color: white;
+    border: 3px black solid;
 }
 
 hr{
@@ -66,18 +80,20 @@ hr{
 }
 
 .fondoCards{
-    background-color: rgb(34, 50, 50);
-    margin-top: -1vh;
+    /* background-color: rgb(34, 50, 50); */
+    margin-top: -3vh;
     padding-bottom: 29vh;
 }
 
 .card{
-    background-color: aliceblue;
+    background-color: white;
     margin-top: 3vh;
     margin-bottom: 2vh;
-    width: 90%;
-    height: 37vh;
-    margin-left: 5%;
+    width: 94%;
+    height: 53vh;
+    margin-left: 3%;
+    border: 3px black solid;
+    border-radius: 1.5rem;
 }
 
 .card-img-top{
@@ -85,6 +101,8 @@ hr{
     width: 92%;
     margin-left: 2vh;
     margin-top: 2vh; 
+    border-radius: 0.5rem;
+    border: 2px #101110 solid;
 }
 
 btn-primary{

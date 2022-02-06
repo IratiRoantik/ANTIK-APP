@@ -1,46 +1,102 @@
 main{
-    background-color: var(--fondo);
-    height: 91vh;
+    background-image: url(../../../assets/img/fondoHome.jpg.png) ;
+    background-size: cover;
+    height: 145vh;
 }
 
-.retroceder{
-    background-color: var(--fondo);
-    margin-top: 5vh;
-    border: none;
-    color: white;
-    margin-left: 1vh;
+h1{
+   color: white;
+   padding-top: 3vh;
+   margin-left: 1.5vh;
 }
 
 .tarjeta{
-    border: solid 5px white;
     width: 96%;
     margin-left: 2%;
-    margin-top: 6vw;
+    padding-top: 17vh;
+  
+}
+
+hr{
+    height: 1vh;
+    color: rgb(0, 0, 0);
+    margin-top: -12vh;
+    width: 78%;
+    margin-left: 12%;
 }
 
 img{
-    width: 100.1%;
-    height: 80vw;
+    width: 97%;
+    height: 72vw;
+    margin-left: 2%;
+    padding-top: 0vh;
+    border: 3vh solid white;
+    border-radius: 4.45rem;
 }
 
-.megustaYtexto{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+
+.detalles{
+    color: rgb(13, 13, 13);
 }
 
 .texto{
-    color: white;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 106%;
+    margin-left: -4%;
+    padding-bottom: 1vh;
+    padding-top: 5vh;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -7vh;
 }
 
-.meGusta{
-    background-color: transparent;
-    color: red;
-    border: none;
-    margin-left: 70%;
-    margin-top: 28%;
-    width: 8%;
+.descripción{
+    margin-top: -1vh;
 }
+
 h3{
-    margin-top: 0.5vh;
+    text-align: right;
+    margin-right: 2vh;
 }
+
+.container{
+    margin-top: 9vh;
+}
+
+.btn-dark,.btn-block{
+    margin-left: 32%;
+    width: 36%;
+    height: 6vh;
+    margin-top: -6.9vh;
+    box-shadow: 4px 4px 4px 1px rgba(26, 100, 100, 0.382);
+    border: 6px solid white;
+    border-radius: 4.25rem;
+}
+
+h1{
+    color:white ;
+}
+
+.collapse, .content-text-header{
+    padding-top: 0vh;
+}
+
+#collapseExample3h3{
+    padding-top: 0vh;
+}
+
+.buttonGuardar{
+    background-color: #000;
+    color: white;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.38);
+    width: 59%;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 21%;
+    border: 6px solid white;
+    border-radius: 4.25rem;
+  
+}
+

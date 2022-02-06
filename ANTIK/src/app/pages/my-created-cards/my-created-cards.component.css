@@ -1,52 +1,90 @@
 main{
-    background-color: var(--fondo);
-    height: 145vh;
-}
+    padding-top: 7vh;
+    background-image: url(../../../assets/img/fondo3.png);
+ }
+ 
 h1{
-    color: white;
-   padding-top: 3vh;
-   margin-left: 1.5vh;
+    color: rgb(255, 255, 255);
+    padding-top: 4vh;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #0000008a;
+    height: 11vh;
 }
-
-.tarjeta{
-    width: 96%;
-    margin-left: 2%;
-    margin-top: 0vw;
-  
-}
-
-hr{
-    width: 104%;
-    color: white;
-    margin-left: -2%;
-    margin-top: 0vh;
-    height: 3px;
-}
-
-img{
-    width: 104%;
-    height: 74vw;
-    margin-left: -2%;
-}
-
+ 
+ 
+ 
+ .containerTarjetas{
+    background-color: transparent;
+     width: 100% !important;
+     height: 87vh;
+     margin-top: -2vh;
+     padding: 1vh;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: 34vh;
+ }
+ 
+ .cards{
+   background-color: transparent;
+     width: 100% !important;
+     /* height: 57vh; */
+     margin-top: -1vh;
+     padding: 1vh;
+ }
+ 
+ .card{
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid rgba(0,0,0,.125);
+     border-radius: .25rem;
+     height: 30vh;
+     margin-top: 2vh;
+ }
+ 
+ img{
+     width: 100% !important;
+     height: 19vh !important;
+ }
+ 
+ .textoYcorazon{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ button{
+     margin-top: 7vh;
+     margin-right: 1vh;
+ }
+ 
+ .editar{
+     border: none;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+ }
 
 .detalles{
-    color: white;
+    color: rgb(13, 13, 13);
 }
 
 .texto{
-    margin-top: -1vh;
-    color: white;
-    background-color: var(--pulsado);
+    color: black;
+    background-color: rgb(255, 255, 255);
     width: 106%;
     margin-left: -4%;
     padding-bottom: 1vh;
-    padding-top: 1vh;
+    padding-top: 5vh;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -7vh;
 }
 
+.descripción{
+    margin-top: -1vh;
+}
 
 h3{
-    margin-top: 1vh;
     text-align: right;
     margin-right: 2vh;
 }
@@ -58,16 +96,14 @@ h3{
 .btn-dark,.btn-block{
     margin-left: 32%;
     width: 36%;
-    height: 5vh;
-    margin-top: 4vh;
+    height: 6vh;
+    margin-top: 0vh;
     box-shadow: 4px 4px 4px 1px rgba(26, 100, 100, 0.382);
-    border: 1px solid white;
-    border-radius: 0.25rem;
+    border: 6px solid white;
+    border-radius: 4.25rem;
 }
 
-h1{
-    color:white ;
-}
+
 
 .collapse, .content-text-header{
     padding-top: 2vh;
@@ -88,3 +124,4 @@ h1{
     margin-top: 2vh;
     margin-left: 21%;
 }
+

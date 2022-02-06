@@ -29,7 +29,9 @@ const routes: Routes = [
   {path: "my-created-cards", component: MyCreatedCardsComponent},
   {path: "my-save-cards", component: MySaveCardsComponent},
   {path: "profile", component: ProfileComponent},
-  {path: "tech-support", component: TechSupportComponent}
+  {path: "tech-support", component: TechSupportComponent},
+  {path: "", redirectTo: "/home", pathMatch: 'full'},
+  {path: "**", redirectTo: "/404"},
 ];
 
 @NgModule({

@@ -1,7 +1,8 @@
 main{
-    background-color: var(--fondo);
-    color: white;
-    height: 90vh;
+    background-image: url(../../../assets/img/fondoB&W.png);
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    height: 93vh;
 }
 
 h1{
@@ -17,30 +18,59 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    background-color: #000000a6;
+    height: 29vh;
+    margin-top: 7vh;
+    border: 6px black solid;
+    border-radius: 3.25rem;
+    width: 97%;
+    margin-left: 1.5%;
 }
 
 img{
-    width: 14vh;
-    height: 14vh;
-    border: 1px solid white;
+    width: 19vh;
+    height: 18vh;
+    border: 3px solid white;
     margin-left: 2vh;
+    margin-top: 5vh;
+    border-radius: 20%;
 }
 
 h5{
-    font-size: small;
-    margin-left: 2vh;
+    font-size: smaller;
+    margin-left: 3vh;
     font-weight: lighter;
-    margin-right: 0.19vh;
-}
-
-.logos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-right: 2.19vh;
+    margin-top: 3vh;
 }
 
 .bi-linkedin{
     border: none;
-    width: 8vh;
-    height: 8vh; 
+    width: 9vh;
+    height: 9vh;
+}
+
+.link2{
+    margin-left: 39vh;
+    margin-top: 16vh;
+}
+
+.link{
+    margin-top: -42vh;
+    margin-left: -2vh;
+}
+
+.contacto{
+    background-color: #000000ab;
+    height: 23vh;
+    border: 6px black solid;
+    border-radius: 3.25rem;
+    width: 97%;
+    margin-left: 1.5%;
+}
+
+h2{
+    margin-top: 6vh;
+    margin-left: 2vh;
+
 }
